@@ -1,4 +1,4 @@
-# iCommenter: A Tool for Intelligent Multi-level Code Summarization
+# iCommenter: A Tool for Multi-level Code Summarization
 
 ## Introduction
 Code comments play a huge role in facilitating software development and maintenance. 
