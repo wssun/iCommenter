@@ -13,13 +13,17 @@ To make iCommenter practically support a broad range of software developers, we 
 ## 🔥 Download & Installation
 You can download the iCommenter PyCharm plugin from the following directory in this repository:
 
-📂 **[`plugins/`](./plugins/)** – This folder contains multiple versions of the iCommenter plugin for download.
+📂 **[`plugins/`](./plugins/)** – This folder contains the iCommenter plugin for download.
+
+> ⚠️ Please use **PyCharm version 2023.2.5 or above** to ensure compatibility with iCommenter.
 
 To install the plugin in PyCharm:
 1. Open **PyCharm**.
 2. Navigate to **Settings** > **Plugins**.
 3. Click **Install Plugin from Disk** and select the downloaded `.zip` file.
 4. Restart PyCharm to activate iCommenter.
+
+For a step-by-step installation guide on macOS with screenshots, please check: [Install iCommenter on Mac OS.pdf](./Install%20iCommenter%20on%20Mac%20OS.pdf)
 
 ## 📷 Usage & Guideline
 Below is a screenshot showcasing iCommenter in action:
@@ -32,10 +36,13 @@ Below is a screenshot showcasing iCommenter in action:
 When developers would like to generate comments for method-level and file-level code units, they can simply click these icons.
 - **Module-level Comment Generation:** When developers want to generate comments for a module-level code unit, they can simply move the mouse to the folder directory corresponding to the module in area (1), then right-click, and select ``Generate Module Comments.'' iCommenter will adopt the hierarchical code strategy to generate comments for the module, and store the generated comments in a file and place it in the module folder for developers to view.
 
+### Demonstration Video
+▶️ [Click here to watch the iCommenter demo video](https://www.youtube.com/watch?v=Fzfpq-vlN7A&t=43s)
+
 ## 🛠 Core Code & Implementation
 The core implementation of iCommenter, including various summarization strategies and prompt designs, is available in a separate repository:
 
-🔗 **[iCommenter-Core Repository](https://github.com/wssun/LLM4ModuleSum)** – Contains the main logic for comment generation.
+🔗 **[iCommenter-Core Code Repository](https://github.com/wssun/LLM4ModuleSum)** – Contains the main logic for comment generation.
 
 ## 📢 Future Work
 We are actively working on extending iCommenter to **IntelliJ IDEA**, enabling support for Java developers.
