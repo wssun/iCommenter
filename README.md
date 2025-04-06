@@ -37,7 +37,7 @@ When developers would like to generate comments for method-level and file-level 
 - **Module-level Comment Generation:** When developers want to generate comments for a module-level code unit, they can simply move the mouse to the folder directory corresponding to the module in area (1), then right-click, and select ``Generate Module Comments.'' iCommenter will adopt the hierarchical code strategy to generate comments for the module, and store the generated comments in a file and place it in the module folder for developers to view.
 
 ### Demonstration Video
-▶️ [Click here to watch the iCommenter demo video](https://www.youtube.com/watch?v=Fzfpq-vlN7A&t=43s)
+▶️ [Click here to watch the iCommenter demo video](https://www.youtube.com/watch?v=Fzfpq-vlN7A)
 
 ## 🛠 Core Code & Implementation
 The core implementation of iCommenter, including various summarization strategies and prompt designs, is available in a separate repository:
